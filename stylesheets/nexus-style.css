@@ -1,0 +1,167 @@
+body {
+  font-family: 'LotaRegular';
+}
+
+.page-title {
+    text-align: center;
+}
+
+
+@font-face {
+    font-family: 'LotaRegular';
+    src: url('../assets/fonts/Lota/Los Andes  Lota Grotesque Alt 3 Regular.otf');
+    }
+    
+    
+    @font-face {
+    font-family: 'LotaBold';
+    src: url('../assets/fonts/Lota/Los Andes  Lota Grotesque Alt 3 Semi Bold.otf');
+    }
+    
+    @font-face {
+    font-family: 'BRANDFONT';
+    src: url('../assets/fonts/Lemon Milk/LEMONMILK-Medium.otf');
+    }
+
+  
+
+h1 {
+    font-size: 450%;
+    font-family: 'BRANDFONT';
+  }
+  
+.bold {
+  font-family: 'LotaBold';
+}
+  h2 {
+    font-size: 300%;
+    font-family: 'BRANDFONT';
+  }
+  
+  h3 {
+    font-size: 250%;
+    font-family: 'BRANDFONT';
+  }
+  
+  
+  h4 {
+    font-size: 200%;
+    font-family: 'BRANDFONT';
+    
+  }
+
+  p {
+    font-family: 'LotaRegular';
+    font-size: 120%;
+  }
+  
+  li a {
+    font-size: 130%;
+    font-family: 'BRANDFONT' !important;
+  }
+
+  a {
+    font-family: 'LotaRegular';
+    font-size: 120%;
+  }
+
+  @media only screen and (max-width: 1146px) {
+    h1 {
+      font-size: 300% !important;
+    }
+  
+    h2 {
+      font-size: 250% !important;
+    }
+  
+    h3 {
+      font-size: 200% !important;
+    }
+  
+    h4 {
+      font-size: 150% !important;
+    }
+  
+    p {
+      font-size: 120% !important;
+    }
+
+    #widepageheaderimage {
+      height: 250px !important;
+    }
+  }
+
+#latestfromnexusmovement {
+  min-height: 400px;
+  width: 100%;
+  background-color: #f74738;
+  color: white;
+  padding: 25px;
+  margin-top: 35px;
+}
+
+.active {
+  color: #f74738;
+}
+
+#header-logo {
+  transition: 0.5s
+}
+
+#header-logo:hover {
+  opacity: 0.5;
+}
+
+#widepageheader {
+  background-color: #f74738;
+  border-radius: 20px;
+  color: white;
+  animation: Fade 0.5s;
+  margin-top: 25px;
+  overflow: hidden;
+}
+
+#widepageheaderimage {
+
+  width: 100%;
+  height: 450px;
+}
+
+
+.fill {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.fill img {
+  animation: TransitionZoom 3s;
+}
+
+.fill img {
+  flex-shrink: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+@keyframes TransitionZoom {
+  from {
+    transform: scale(1.15);
+  }
+
+  to {
+    transform: scale(1)
+  }
+}
+
+
+@keyframes Fade {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}

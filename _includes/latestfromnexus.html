@@ -1,0 +1,21 @@
+<div id="latestfromnexusmovement">
+<h3 style="text-align: center;">The Latest from the Nexus Movement</h4>
+    {% for post in site.posts %}
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-3">
+                <a href="{{post.url}}">{{post.title}}</a>
+            </div>
+
+            <div class="col-md-3">
+                <a href="{{post.url}}">{{post.title}}</a>
+            </div>
+            
+        </div>
+
+    </div>
+
+
+{% endfor %}
+</div>
+

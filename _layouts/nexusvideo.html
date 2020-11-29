@@ -1,0 +1,13 @@
+
+{% include header.html %}
+    <div class="container" style="margin-top: 25px;">
+    <h2 class="page-title">{{ page.title }}</h2>
+    <span class="date">{{ page.date }}</span>
+
+    {{ content }}
+
+
+    </div>
+
+    {% include latestfromnexus.html %}
+{% include footer.html %}
